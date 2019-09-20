@@ -52,7 +52,7 @@ print(f"Winner: {win}")
 print("--------------------------")
 
 
-output_path = os.path.join("electionResults.csv")
+output_path = os.path.join("electionResults.txt")
 with open(output_path, 'w', newline='') as writeFile:
     csvwriter = csv.writer(writeFile, delimiter=' ')
     csvwriter.writerow("Election Results")
